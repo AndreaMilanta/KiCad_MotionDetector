@@ -1,27 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Motion_Detector_+3.3V
+# Connector_Generic_Conn_01x03
 #
-DEF Motion_Detector_+3.3V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Motion_Detector_+3.3V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS +3.3V
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# Motion_Detector_Connector_Generic_Conn_01x03
-#
-DEF Motion_Detector_Connector_Generic_Conn_01x03 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x03 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Motion_Detector_Connector_Generic_Conn_01x03" 0 -200 50 H V C CNN
+F1 "Connector_Generic_Conn_01x03" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -38,11 +22,11 @@ X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Motion_Detector_Connector_Jack-DC
+# Connector_Jack-DC
 #
-DEF Motion_Detector_Connector_Jack-DC J 0 40 Y Y 1 F N
+DEF Connector_Jack-DC J 0 40 Y Y 1 F N
 F0 "J" 0 210 50 H V C CNN
-F1 "Motion_Detector_Connector_Jack-DC" 0 -200 50 H V C CNN
+F1 "Connector_Jack-DC" 0 -200 50 H V C CNN
 F2 "" 50 -40 50 H I C CNN
 F3 "" 50 -40 50 H I C CNN
 ALIAS Jack-DC
@@ -61,11 +45,11 @@ X ~ 2 300 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Motion_Detector_Device_C
+# Device_C
 #
-DEF Motion_Detector_Device_C C 0 10 N Y 1 F N
+DEF Device_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Motion_Detector_Device_C" 25 -100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -79,11 +63,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Motion_Detector_Device_D
+# Device_D
 #
-DEF Motion_Detector_Device_D D 0 40 N N 1 F N
+DEF Device_D D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Motion_Detector_Device_D" 0 -100 50 H V C CNN
+F1 "Device_D" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -101,11 +85,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Motion_Detector_Device_R
+# Device_R
 #
-DEF Motion_Detector_Device_R R 0 0 N Y 1 F N
+DEF Device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Motion_Detector_Device_R" 0 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -118,11 +102,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Motion_Detector_ESP8266_NodeMCU_1.0_(ESP-12E)
+# ESP8266_NodeMCU_1.0_(ESP-12E)
 #
-DEF Motion_Detector_ESP8266_NodeMCU_1.0_(ESP-12E) U 0 40 Y Y 1 F N
+DEF ESP8266_NodeMCU_1.0_(ESP-12E) U 0 40 Y Y 1 F N
 F0 "U" 0 850 60 H V C CNN
-F1 "Motion_Detector_ESP8266_NodeMCU_1.0_(ESP-12E)" 0 -850 60 H V C CNN
+F1 "ESP8266_NodeMCU_1.0_(ESP-12E)" 0 -850 60 H V C CNN
 F2 "" -600 -850 60 H V C CNN
 F3 "" -600 -850 60 H V C CNN
 DRAW
@@ -160,11 +144,11 @@ X CLK(SCLK) 9 -800 -100 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Motion_Detector_Transistor_BJT_BC547
+# Transistor_BJT_BC547
 #
-DEF Motion_Detector_Transistor_BJT_BC547 Q 0 0 Y N 1 F N
+DEF Transistor_BJT_BC547 Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "Motion_Detector_Transistor_BJT_BC547" 200 0 50 H V L CNN
+F1 "Transistor_BJT_BC547" 200 0 50 H V L CNN
 F2 "Package_TO_SOT_THT:TO-92_Inline" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 ALIAS BC546 BC548 BC549 BC550 BC337 BC338
@@ -184,13 +168,14 @@ X E 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Motion_Detector_power_+3.3V
+# power_+3.3V
 #
-DEF Motion_Detector_power_+3.3V #PWR 0 0 Y Y 1 F P
+DEF power_+3.3V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Motion_Detector_power_+3.3V" 0 140 50 H V C CNN
+F1 "power_+3.3V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
 DRAW
 P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
@@ -199,11 +184,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Motion_Detector_power_GND
+# power_GND
 #
-DEF Motion_Detector_power_GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Motion_Detector_power_GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -212,11 +197,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Motion_Detector_power_VCC
+# power_VCC
 #
-DEF Motion_Detector_power_VCC #PWR 0 0 Y Y 1 F P
+DEF power_VCC #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Motion_Detector_power_VCC" 0 150 50 H V C CNN
+F1 "power_VCC" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
